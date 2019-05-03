@@ -3,8 +3,8 @@ function makeLoadedDie() {
   var i = 0;
 
   return function() {
-    i++
-    return list[i-1]
+    i++;
+    return list[i-1];
   }
 }
 
